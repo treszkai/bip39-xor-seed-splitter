@@ -23,6 +23,6 @@ for i, (w1, w2) in enumerate(zip(seed1_words, seed2_words)):
     seed_words.append(seed_word)
 
 print('\nSeed:')
-for i, w in enumerate(seed_words):
+for i, w in enumerate(seed_words, start=1):
     print(f'#{i}: {w}')
 
